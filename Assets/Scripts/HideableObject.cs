@@ -1,47 +1,48 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HideableObject : MonoBehaviour
 {
-    private SpriteRenderer[] spriteRenderers;
+     private SpriteRenderer[] spriteRenderers;
     private Color[] originalColors;
-
+ 
     void Start()
     {
         spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
         
         originalColors = new Color[spriteRenderers.Length];
-
+ 
         for (int i = 0; i < spriteRenderers.Length; i++)
         {
             originalColors[i] = spriteRenderers[i].color;
         }
     }
-
+ 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            StopAllCoroutines(); 
+            StopAllCoroutines();
             StartCoroutine(FadeSprites(0.2f, true));
         }
     }
-
+ 
     private void OnTriggerExit2D(Collider2D other)
     {
-
+ 
         if (other.CompareTag("Player"))
         {
-            StopAllCoroutines(); 
+            StopAllCoroutines();
             StartCoroutine(FadeSprites(0.2f, false));
         }
     }
-
+ 
     IEnumerator FadeSprites(float duration, bool isFadingOut)
     {
         float time = 0f;
-
-
+ 
+ 
         while (time < duration)
         {
             time += Time.deltaTime;
@@ -55,8 +56,8 @@ public class HideableObject : MonoBehaviour
             
             yield return null;
         }
-
-
+ 
+ 
         for (int i = 0; i < spriteRenderers.Length; i++)
         {
             spriteRenderers[i].color = isFadingOut ? new Color(0f, 0f, 0f, 0f) : originalColors[i];
