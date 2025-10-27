@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - DestroyableObject
+  - InfoIcon
   layers:
   - Default
   - TransparentFX
