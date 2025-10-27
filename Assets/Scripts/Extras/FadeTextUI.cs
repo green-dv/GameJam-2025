@@ -33,7 +33,6 @@ public class FadeTextUI : MonoBehaviour
         StartCoroutine(FadeTo(0f));
     }
 
-    // 👇 HAZ ESTE CAMBIO
     public IEnumerator FadeTo(float target)
     {
         while (!Mathf.Approximately(canvasGroup.alpha, target))
