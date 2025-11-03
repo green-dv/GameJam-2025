@@ -10,6 +10,7 @@ TagManager:
   - FutureOnly
   - PastOnly
 
+  - ActionableButton
   layers:
   - Default
   - TransparentFX

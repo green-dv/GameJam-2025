@@ -36,6 +36,8 @@ public class PlayerController : MonoBehaviour
     float lastDashTime = -999f;
     float lastMoveDir = 1f;
     Destroyable destroyable = null;
+    ActionableButton actionableButton = null;
+    ActivadorObstaculos activadorObstaculos = null;
     //* * * TIME MANIPULATION CONTROL * * *
     Coroutine executedCoroutine;
     void Start()
@@ -55,9 +57,17 @@ public class PlayerController : MonoBehaviour
         }
         if (isDashing)
         {
-            if(destroyable != null)
+            if (destroyable != null)
             {
                 destroyable.Destroy();
+            }
+            if(actionableButton != null)
+            {
+                actionableButton.ActivateAction();
+            }
+            if(activadorObstaculos != null)
+            {
+                activadorObstaculos.ActivateAction();
             }
         }
     }
@@ -206,12 +216,28 @@ public class PlayerController : MonoBehaviour
         {
             destroyable = null;
         }
+        if (collision.gameObject.CompareTag("ActionableButton"))
+        {
+            actionableButton = null;
+        }
+        if (collision.gameObject.CompareTag("activadorObstaculos"))
+        {
+            activadorObstaculos = null;
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("DestroyableObject"))
         {
             destroyable = collision.gameObject.GetComponent<Destroyable>();
+        }
+        if (collision.gameObject.CompareTag("ActionableButton"))
+        {
+            actionableButton = collision.gameObject.GetComponent<ActionableButton>();
+        }
+        if (collision.gameObject.CompareTag("activadorObstaculos"))
+        {
+            activadorObstaculos = collision.gameObject.GetComponent<ActivadorObstaculos>();
         }
     }
 }
