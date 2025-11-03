@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GameJam2025\\GameJam-2025\\",
+  "WorkspaceRootPath": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|d:\\gamejam2025\\gamejam-2025\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\assets\\scripts\\girlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\girlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|c:\\users\\core i5\\onedrive - universidad privada del valle\\desktop\\gmaejam\\gamejam-2025\\assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|c:\\users\\core i5\\onedrive - universidad privada del valle\\desktop\\gmaejam\\gamejam-2025\\assets\\scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\assets\\scripts\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\assets\\scripts\\timeobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timeobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Door.cs",
+              "ToolTip": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Door.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:39:13.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInventory.cs",
+              "ToolTip": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:38:12.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KeyItem.cs",
+              "DocumentMoniker": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\KeyItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyItem.cs",
+              "ToolTip": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\KeyItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:36:32.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimeObjectController.cs",
+              "DocumentMoniker": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\TimeObjectController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeObjectController.cs",
+              "ToolTip": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\TimeObjectController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimeObjectController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAzwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T04:35:21.657Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GirlController.cs",
+              "DocumentMoniker": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\GirlController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GirlController.cs",
+              "ToolTip": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\GirlController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GirlController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAADwv9QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T02:57:32.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\GameJam2025\\GameJam-2025\\Assets\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\GameJam2025\\GameJam-2025\\Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\core i5\\OneDrive - Universidad Privada del Valle\\Desktop\\Gmaejam\\GameJam-2025\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAswJsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAswAcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-12T04:53:02.004Z",
               "EditorCaption": ""
