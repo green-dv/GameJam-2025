@@ -1,0 +1,941 @@
+fileFormatVersion: 2
+guid: 9c9b660792473f3459931087e6af0543
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1460
+        width: 141
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a2bf3bc643b464cb8e93455d62e699
+      internalID: 1735075433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1461
+        width: 137
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6706bf5b991294f9af2e0a5ee3eb41
+      internalID: 736114672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1461
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c06364b240b1a478cad65fe3c9b925
+      internalID: -545905553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1461
+        width: 128
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fe677c7d2576e4e8ab9d6aef6b450a
+      internalID: 279709699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1465
+        width: 132
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9b95a1fdd254a4f8a4b40ead44ff69
+      internalID: 812464761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1486
+        width: 151
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f2827452c47b24f8cbd4b768c3262d
+      internalID: 953107687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1210
+        width: 156
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554ec11197e0ec9449dff9cd79b7f229
+      internalID: 461878523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1222
+        width: 160
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5673d7052d064745a643639e49d1f51
+      internalID: -1729877339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1230
+        width: 172
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f78428616b5cdb42b56677b53bb0613
+      internalID: 1776033310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1231
+        width: 173
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f732697e19f86f846a2ce0ad46ee6710
+      internalID: -195957304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1230
+        width: 171
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f88f6b4e8d5ec64a91a558ecfce97c4
+      internalID: 1977920228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1230
+        width: 173
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26339fdb0eae29845af636cae26412e1
+      internalID: 998182949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 939
+        width: 171
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b66309e9c626f040b18e4cfeffb3aaa
+      internalID: 366896762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 935
+        width: 173
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508843228c5770c40a1470c713832912
+      internalID: 832811488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_22
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 915
+        width: 173
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30330cf67b5d554190f86c6828f8f82
+      internalID: 279641893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 885
+        width: 149
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2986923d34bd04a92a29af66c5c99e
+      internalID: -66634231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_24
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 886
+        width: 144
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47efdb38dc84284cb9ba2cb1a217544
+      internalID: 424559427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_25
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 884
+        width: 143
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a7c6b685d16ec4aabfb1083e901a3d
+      internalID: -370685948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 596
+        width: 137
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fbd3ea9278c5f44b8ed3a49ea3ccff
+      internalID: -2103273987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 596
+        width: 122
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4691a24ca30fc94419fd2631598656be
+      internalID: 905950222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_31
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 613
+        width: 147
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9face60a3db7bea408a6db3db14e77b7
+      internalID: -392986627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_32
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 630
+        width: 155
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b4886c0d9cdc04fb27d91dd2cfad82
+      internalID: 1228533835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_33
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 642
+        width: 160
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3fe99cee4f7ed49b8797b941439f68
+      internalID: 802835156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_34
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 651
+        width: 167
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45df65d3601a3fe4882250a1cb858c64
+      internalID: -1883705578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 367
+        width: 172
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17925cff2ee460140b078ddb66c40b29
+      internalID: -372210463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_40
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 366
+        width: 173
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701353c015e52a443b69b60e5679e9d9
+      internalID: 1571351576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_41
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 367
+        width: 171
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfb07c5485806a4dbca75d6aca1fa40
+      internalID: 156703605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_42
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 366
+        width: 173
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56c14d44d0192e4d994119b5a397cde
+      internalID: -1003621660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_43
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 362
+        width: 172
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52725f425e07ad14485242f7bb9fbbe5
+      internalID: 902664907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_44
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 359
+        width: 173
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f2892232cec3b46b0c72587b24fad9
+      internalID: -1885989535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 47
+        width: 172
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ae582926e3c5446a2cc6d0186e70be
+      internalID: 715391436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_52
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 14
+        width: 180
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72372b67415ccc4fa75b6856e63bf17
+      internalID: -714422404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_53
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 14
+        width: 180
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596206d53225c4441b4c90c01f0f4064
+      internalID: 475801486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_54
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 14
+        width: 180
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee10b4c1c35659d47b9b2d83fbe37546
+      internalID: 1152553646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_55
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 14
+        width: 180
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cd88bfb39e4764d84bead56173a3a1
+      internalID: 1900874210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpFemaleAnimation_56
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 14
+        width: 180
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f99495f4c4253c4591aeefa3cde5cbe
+      internalID: -1541606249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 944ccb34a1267384c80a43a9251c865b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      JumpFemaleAnimation_0: 1735075433
+      JumpFemaleAnimation_1: 736114672
+      JumpFemaleAnimation_10: 1776033310
+      JumpFemaleAnimation_11: -195957304
+      JumpFemaleAnimation_12: 1977920228
+      JumpFemaleAnimation_13: 998182949
+      JumpFemaleAnimation_14: 1800980682
+      JumpFemaleAnimation_15: 1929088601
+      JumpFemaleAnimation_16: 1468201324
+      JumpFemaleAnimation_17: 443325254
+      JumpFemaleAnimation_18: 832559963
+      JumpFemaleAnimation_19: -1793983567
+      JumpFemaleAnimation_2: -545905553
+      JumpFemaleAnimation_20: 366896762
+      JumpFemaleAnimation_21: 832811488
+      JumpFemaleAnimation_22: 279641893
+      JumpFemaleAnimation_23: -66634231
+      JumpFemaleAnimation_24: 424559427
+      JumpFemaleAnimation_25: -370685948
+      JumpFemaleAnimation_26: -1907346870
+      JumpFemaleAnimation_27: -1865308103
+      JumpFemaleAnimation_28: 1897145589
+      JumpFemaleAnimation_29: -2103273987
+      JumpFemaleAnimation_3: 279709699
+      JumpFemaleAnimation_30: 905950222
+      JumpFemaleAnimation_31: -392986627
+      JumpFemaleAnimation_32: 1228533835
+      JumpFemaleAnimation_33: 802835156
+      JumpFemaleAnimation_34: -1883705578
+      JumpFemaleAnimation_35: 1715567515
+      JumpFemaleAnimation_36: -1237427573
+      JumpFemaleAnimation_37: 847918686
+      JumpFemaleAnimation_38: -329794661
+      JumpFemaleAnimation_39: -372210463
+      JumpFemaleAnimation_4: 812464761
+      JumpFemaleAnimation_40: 1571351576
+      JumpFemaleAnimation_41: 156703605
+      JumpFemaleAnimation_42: -1003621660
+      JumpFemaleAnimation_43: 902664907
+      JumpFemaleAnimation_44: -1885989535
+      JumpFemaleAnimation_45: -280148079
+      JumpFemaleAnimation_46: -345051496
+      JumpFemaleAnimation_47: 2011969118
+      JumpFemaleAnimation_48: -2014805207
+      JumpFemaleAnimation_49: -688669820
+      JumpFemaleAnimation_5: 953107687
+      JumpFemaleAnimation_50: 441007516
+      JumpFemaleAnimation_51: 715391436
+      JumpFemaleAnimation_52: -714422404
+      JumpFemaleAnimation_53: 475801486
+      JumpFemaleAnimation_54: 1152553646
+      JumpFemaleAnimation_55: 1900874210
+      JumpFemaleAnimation_56: -1541606249
+      JumpFemaleAnimation_57: -1183849738
+      JumpFemaleAnimation_6: 567102565
+      JumpFemaleAnimation_7: 1187883270
+      JumpFemaleAnimation_8: 461878523
+      JumpFemaleAnimation_9: -1729877339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

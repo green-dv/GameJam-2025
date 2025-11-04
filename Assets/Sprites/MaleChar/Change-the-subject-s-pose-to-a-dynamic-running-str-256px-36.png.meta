@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: e27b90b6ab0101e4b8ce8db9a5c303b2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1385
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25a6ecf5fe49cf45b17cfef3d3fe84d
+      internalID: 1172771126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1385
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed90538e7a645b478f0c071a97ee42f
+      internalID: 1453951041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1385
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64cc84bf788c7f43aea0c3d4aec40a6
+      internalID: 2067962092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1385
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6035d9b4d4e06ce4c8eac12b94a7166d
+      internalID: -1597647732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1385
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b883ef9251364fd438e1fd2a59b141db
+      internalID: -274564816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_5
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1385
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4a3c0068b5bb147b9e88572214568b
+      internalID: 411073613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1108
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29858233f3a89e4aa6ffbfe5507921b
+      internalID: -470820173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1108
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd968de984f5f3b448a4d9423e00e208
+      internalID: -1362092870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1108
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464db108f30719c4a94f528f535372f1
+      internalID: 1181479373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_9
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1108
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cabe5cef65eda44a725a9cef0d28d6
+      internalID: -257878564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1108
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625d90653944e4c429dbda421c9f47cb
+      internalID: -1264158499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_11
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1108
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6045d0616380aa14eaf575880947e4e9
+      internalID: 1961760379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a5176b86e02964eaf2890dbf09c754
+      internalID: 297940071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_13
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 831
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914220b90446fec4a901d86ec9ee9572
+      internalID: 738421446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 831
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9bb3336a730f343a07a96e68124366
+      internalID: 53110798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_15
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 831
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834c8b1c2e7399d4aa57dc1162544239
+      internalID: -1069614970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_16
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 831
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c439ec20870286f4283755fcd294fbe3
+      internalID: -319181175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_17
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 831
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b38f31b5fde604db41d2d2ee2d6b65
+      internalID: 389329775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0284089452bb8804f978406a830ac474
+      internalID: 695130745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 554
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f61fa76be325149b521116dc8a772c
+      internalID: 36319715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_20
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 554
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abf94b2f332c7e47899e00a2838f319
+      internalID: -2010280680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_21
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 554
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9491078e60dc9f4439dc6403d659a32e
+      internalID: -421113264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_22
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 554
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c44f552991767444a219893ea006a7f
+      internalID: -111278756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_23
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 554
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be2c186be2f8d4c91e996ada7b7c5f
+      internalID: 630523185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57606f43a55e400488afc1f175f81368
+      internalID: 336824380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_25
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 277
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185724ddd0cffdb4e9d961a2fac61ef9
+      internalID: -1793875996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_26
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 277
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4ec92825f0c1c48ba88e3a9d7ec339
+      internalID: 1469788165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_27
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 277
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b442cb06089d7e478f362c2ed1f9a8f
+      internalID: -508908816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_28
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 277
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ef7cecd86289445bede511f8895c54
+      internalID: -1688413048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_29
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 277
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552886d4a1007794db360df02a4185d1
+      internalID: 397125145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07cb19db1a9ec7488ca50d7691671b6
+      internalID: 1574049172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_31
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f7a80f3afd62c48bdc754b18a1ed76
+      internalID: -1050244588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_32
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb01c5d527d883a4ba8f6cbe7d0ebd43
+      internalID: 1425812974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_33
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b405217a10b874e99765993f0f7776
+      internalID: -1085249208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_34
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 0
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c69755a13b9b5a4890694591203ccd1
+      internalID: -270190183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_35
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 0
+        width: 202
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ab3166aa47c7c44b0058284362db7e
+      internalID: 1274783345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_0: 1172771126
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_1: 1453951041
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_10: -1264158499
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_11: 1961760379
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_12: 297940071
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_13: 738421446
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_14: 53110798
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_15: -1069614970
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_16: -319181175
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_17: 389329775
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_18: 695130745
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_19: 36319715
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_2: 2067962092
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_20: -2010280680
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_21: -421113264
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_22: -111278756
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_23: 630523185
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_24: 336824380
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_25: -1793875996
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_26: 1469788165
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_27: -508908816
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_28: -1688413048
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_29: 397125145
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_3: -1597647732
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_30: 1574049172
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_31: -1050244588
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_32: 1425812974
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_33: -1085249208
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_34: -270190183
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_35: 1274783345
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_4: -274564816
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_5: 411073613
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_6: -470820173
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_7: -1362092870
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_8: 1181479373
+      Change-the-subject-s-pose-to-a-dynamic-running-str-256px-36_9: -257878564
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
