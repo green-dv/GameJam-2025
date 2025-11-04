@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Deteccion de suelo")]
     [SerializeField] float groundDistance = 0.1f;
+    [SerializeField] float closeToGround = 0.5f;
     [SerializeField] LayerMask groundMask;
 
     [Header("Dash (habilidad especial)")]
@@ -22,10 +23,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool disableGravityDuringDash = true;
     [SerializeField] Image abilityImage;
 
+    [SerializeField] Animator animations;
     Rigidbody2D rb;
     PlayerInput actionMaps;
     Collider2D col;
     bool isGrounded = false;
+    bool isWalking = false;
     //* * * TEMPORAL BOOL (CHANGE FOR TAGS LATER)
     bool isPlayerOne = true;
     //* * * DASHING OPTIONS * * *
@@ -33,6 +36,8 @@ public class PlayerController : MonoBehaviour
     float lastDashTime = -999f;
     float lastMoveDir = 1f;
     Destroyable destroyable = null;
+    ActionableButton actionableButton = null;
+    ActivadorObstaculos activadorObstaculos = null;
     //* * * TIME MANIPULATION CONTROL * * *
     Coroutine executedCoroutine;
     void Start()
@@ -54,42 +59,94 @@ public class PlayerController : MonoBehaviour
         {
             if (destroyable != null)
             {
-                rb.velocity = Vector2.zero;
                 destroyable.Destroy();
+            }
+            if(actionableButton != null)
+            {
+                actionableButton.ActivateAction();
+            }
+            if(activadorObstaculos != null)
+            {
+                activadorObstaculos.ActivateAction();
             }
         }
     }
 
     public void CheckGround()
     {
+        if (!isGrounded)
+        {
+            Vector2 originRightClose = new Vector2(col.bounds.max.x, col.bounds.min.y);
+            RaycastHit2D hitRightClose = Physics2D.Raycast(originRightClose, Vector2.down, closeToGround, groundMask);
+
+            Vector2 originLeftClose = new Vector2(col.bounds.min.x, col.bounds.min.y);
+            RaycastHit2D hitLeftClose = Physics2D.Raycast(originLeftClose, Vector2.down, closeToGround, groundMask);
+            animations.SetBool("CloseToGround", hitRightClose.collider != null || hitLeftClose.collider != null);
+
+        }
+        // * * * GROUNDED * * *
         Vector2 originRight = new Vector2(col.bounds.max.x, col.bounds.min.y);
         RaycastHit2D hitRight = Physics2D.Raycast(originRight, Vector2.down, groundDistance, groundMask);
 
         Vector2 originLeft = new Vector2(col.bounds.min.x, col.bounds.min.y);
         RaycastHit2D hitLeft = Physics2D.Raycast(originLeft, Vector2.down, groundDistance, groundMask);
+
         isGrounded = hitRight.collider != null || hitLeft.collider != null;
+        animations.SetBool("Grounded", isGrounded);
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
         if (context.performed && isGrounded && !isDashing)
         {
+            animations.SetBool("CloseToGround", false);
+            animations.SetTrigger("Jumping");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
+    public void IsWalking(InputAction.CallbackContext context)
+    {
+
+    }
+    [SerializeField] float stopDelay = 0.05f;
+    float lastMoveTime = 0f;
 
     void MovePlayerInput()
     {
         Vector2 inputs = actionMaps.actions["Move"].ReadValue<Vector2>();
-        //* * * OBTENEMOS LA DIRECCION A LA QUE SE APUNTA * * *
-        if (inputs.x != 0)
+        float moveX = inputs.x;
+
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+
+        // Si hay movimiento (izq o der)
+        if (moveX != 0)
         {
-            lastMoveDir = Mathf.Sign(inputs.x);
+            lastMoveTime = Time.time;
+            lastMoveDir = Mathf.Sign(moveX);
+
+            if (sprite != null)
+                sprite.flipX = moveX < 0;
+
+            if (!isWalking)
+            {
+                isWalking = true;
+                animations.SetBool("Walking", true);
+            }
+        }
+        else
+        {
+            // Solo se detiene si ya pas� el delay desde el �ltimo movimiento
+            if (Time.time - lastMoveTime > stopDelay && isWalking)
+            {
+                isWalking = false;
+                animations.SetBool("Walking", false);
+            }
         }
 
-        Vector2 move = new Vector2(inputs.x * speed, rb.velocity.y);
-        rb.velocity = move;
+        // Movimiento del personaje
+        rb.velocity = new Vector2(moveX * speed, rb.velocity.y);
     }
+
     #region Time Manipulation
     public void ChangeTimeFuture(InputAction.CallbackContext context)
     {
@@ -114,11 +171,12 @@ public class PlayerController : MonoBehaviour
         {
             executedCoroutine = StartCoroutine(PerformDash(lastMoveDir));
         }
-    }
+    } 
     IEnumerator PerformDash(float dir)
     {
         isDashing = true;
         lastDashTime = Time.time;
+        animations.SetTrigger("Dashing");
         //* * * DESACTIVAMOS LA GRAVEDAD * * *
         float prevGravity = rb.gravityScale;
         if (disableGravityDuringDash)
@@ -152,24 +210,34 @@ public class PlayerController : MonoBehaviour
         abilityImage.fillAmount = 1f;
     }
     #endregion
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if (isDashing)
+        if (collision.gameObject.CompareTag("DestroyableObject"))
         {
-            if (other.gameObject.CompareTag("DestroyableObject"))
-            {
-                destroyable = null;
-            }
+            destroyable = null;
+        }
+        if (collision.gameObject.CompareTag("ActionableButton"))
+        {
+            actionableButton = null;
+        }
+        if (collision.gameObject.CompareTag("activadorObstaculos"))
+        {
+            activadorObstaculos = null;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (isDashing)
+        if (collision.gameObject.CompareTag("DestroyableObject"))
         {
-            if (collision.gameObject.CompareTag("DestroyableObject"))
-            {
-                destroyable = collision.gameObject.GetComponent<Destroyable>();
-            }
+            destroyable = collision.gameObject.GetComponent<Destroyable>();
+        }
+        if (collision.gameObject.CompareTag("ActionableButton"))
+        {
+            actionableButton = collision.gameObject.GetComponent<ActionableButton>();
+        }
+        if (collision.gameObject.CompareTag("activadorObstaculos"))
+        {
+            activadorObstaculos = collision.gameObject.GetComponent<ActivadorObstaculos>();
         }
     }
 }
