@@ -9,9 +9,8 @@ TagManager:
   - InfoIcon
   - FutureOnly
   - PastOnly
-
-  - ActionableButton
   - activadorObstaculos
+  - ActionableButton
   layers:
   - Default
   - TransparentFX
