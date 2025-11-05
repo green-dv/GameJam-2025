@@ -12,6 +12,7 @@ TagManager:
   - activadorObstaculos
   - ActionableButton
   - cintaController
+  - Boss
   layers:
   - Default
   - TransparentFX
