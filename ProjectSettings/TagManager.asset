@@ -11,6 +11,7 @@ TagManager:
   - PastOnly
   - activadorObstaculos
   - ActionableButton
+  - cintaController
   layers:
   - Default
   - TransparentFX

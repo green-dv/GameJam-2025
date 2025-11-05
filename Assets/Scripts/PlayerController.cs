@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
     Destroyable destroyable = null;
     ActionableButton actionableButton = null;
     ActivadorObstaculos activadorObstaculos = null;
+    CintaController cintaController = null;
     //* * * TIME MANIPULATION CONTROL * * *
     Coroutine executedCoroutine;
     void Start()
@@ -68,6 +69,11 @@ public class PlayerController : MonoBehaviour
             if(activadorObstaculos != null)
             {
                 activadorObstaculos.ActivateAction();
+            }
+            if(cintaController != null)
+            {
+                Debug.Log("2");
+                cintaController.ChangeStatus();
             }
         }
     }
@@ -224,6 +230,10 @@ public class PlayerController : MonoBehaviour
         {
             activadorObstaculos = null;
         }
+        if (collision.gameObject.CompareTag("cintaController"))
+        {
+            cintaController = null;
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -238,6 +248,11 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("activadorObstaculos"))
         {
             activadorObstaculos = collision.gameObject.GetComponent<ActivadorObstaculos>();
+        }
+        if (collision.gameObject.CompareTag("cintaController"))
+        {
+            Debug.Log("1");
+            cintaController = collision.gameObject.GetComponent<CintaController>();
         }
     }
 }
