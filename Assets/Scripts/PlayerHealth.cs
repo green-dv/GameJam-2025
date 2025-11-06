@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 3;
+    public bool start = true;
 
     public SpriteRenderer playerSr;
     public PlayerController playerController;
@@ -18,6 +20,11 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     public void TakeDamage(int amount)
     {
+        if (start)
+        {
+            start = false;
+            return;
+        }
         health -= amount;
         if(health <= 0)
         {
@@ -34,6 +41,7 @@ public class PlayerHealth : MonoBehaviour
         if(GameController.instance != null)
         {
             GameController.instance.GameOver(); 
+            SceneManager.LoadScene("GameOver");
         }
 
         GetComponent<Collider2D>().enabled = false;

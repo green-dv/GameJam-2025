@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Cutscene1Controller : MonoBehaviour
 {
     public GameObject cutsceneCanvas;
@@ -63,6 +63,7 @@ public class Cutscene1Controller : MonoBehaviour
 
         cutsceneCanvas.gameObject.SetActive(false);
         isRunning = false;
+        SceneManager.LoadScene("EllaLV1");
     }
 
     private IEnumerator Fade(Image image, float startAlpha, float endAlpha, float duration)
