@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 91cbe11f9d0ca40489966cda97a90244
+  - enabled: 1
+    path: Assets/Scenes/DemoScene.unity
+    guid: 138553dbcfa5d6f4d937390a7be5c604
+  - enabled: 1
+    path: Assets/Scenes/EllaLV1.unity
+    guid: 85b4a324ce254cc40a3bfbdba8504347
+  - enabled: 1
+    path: Assets/Scenes/Kael-Nivel2.unity
+    guid: 3687379a7fe9dc04d9127ff0d4eb2c9e
+  - enabled: 1
+    path: Assets/Scenes/Kael-Nivel3.unity
+    guid: dab786c5dba07fb459ab1293e5185252
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: a41726d5d31f0854d83dfe8e694fcedd
   m_configObjects: {}

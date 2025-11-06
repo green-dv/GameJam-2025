@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ConveyorBelt : MonoBehaviour
 {
-    [SerializeField] private bool moveRight = true;
+    [SerializeField] public bool moveRight = true;
     [SerializeField] private float speed = 3f;
 
     private void OnTriggerStay2D(Collider2D collision)
