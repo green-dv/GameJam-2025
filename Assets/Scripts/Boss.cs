@@ -12,14 +12,14 @@ public class Boss : MonoBehaviour
 
     [Header("Stats")]
     public float velocidad = 2f;
-    public float fuerzaSalto = 7f;
     public float distanciaAtaque = 4f;
     public float stoppingDistance = 0.5f;
     private bool mirandoDerecha = true;
     private bool atacando = false;
+    private bool batallaIniciada = false;
 
     [Header("Supervivencia / Cronómetro")]
-    public float tiempoTotal = 180f;
+    public float tiempoTotal = 120f;
     public float incrementoVelocidadCada = 30f;
     public float factorAumentoVelocidad = 1.1f;
     private float tiempoTranscurrido = 0f;
@@ -52,13 +52,12 @@ public class Boss : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
         jugador = GameObject.FindGameObjectWithTag("Player").transform;
-
-        StartCoroutine(TiempoSupervivencia());
+        animator.SetBool("Walking", false);
     }
 
     void Update()
     {
-        if (jugador == null || desapareciendo) return;
+        if (!batallaIniciada || jugador == null || desapareciendo) return;
 
         CheckGround();
         MirarJugador();
@@ -79,8 +78,6 @@ public class Boss : MonoBehaviour
 
             MoverYSeguirJugador(distancia);
         }
-
-        animator.SetFloat("VelocidadY", rb.velocity.y);
     }
 
     private void CheckGround()
@@ -94,35 +91,44 @@ public class Boss : MonoBehaviour
     private void MoverYSeguirJugador(float distancia)
     {
         float dir = Mathf.Sign(jugador.position.x - transform.position.x);
-        float alturaRelativa = jugador.position.y - transform.position.y;
+        float diferenciaAltura = jugador.position.y - transform.position.y;
+
+        if (diferenciaAltura > 2f)
+        {
+            animator.SetBool("Walking", false);
+            rb.velocity = new Vector2(0, rb.velocity.y);
+
+            if (puedeUsarHabilidad && !atacando)
+            {
+                StartCoroutine(UsarHabilidadEspecial());
+            }
+
+            return;
+        }
 
         if (estaEnSuelo || rb.velocity.y < 0)
         {
             if (distancia > stoppingDistance)
             {
                 animator.SetBool("Walking", true);
-                rb.velocity = new Vector2(dir * velocidad, rb.velocity.y);
+                float velocidadActual = Mathf.Lerp(rb.velocity.x, dir * velocidad, Time.deltaTime * 5f);
+                rb.velocity = new Vector2(velocidadActual, rb.velocity.y);
             }
             else
             {
                 animator.SetBool("Walking", false);
                 rb.velocity = new Vector2(0, rb.velocity.y);
-            }
 
-            if (alturaRelativa > 1.5f && estaEnSuelo)
-            {
-                Saltar();
+                if (puedeUsarHabilidad && !atacando)
+                {
+                    StartCoroutine(UsarHabilidadEspecial());
+                }
             }
         }
     }
 
-    private void Saltar()
-    {
-        animator.SetTrigger("Jumping");
-        rb.velocity = new Vector2(rb.velocity.x, 0);
-        rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
-        estaEnSuelo = false;
-    }
+
+
 
     private void MirarJugador()
     {
@@ -169,7 +175,7 @@ public class Boss : MonoBehaviour
             {
                 int minutos = Mathf.FloorToInt(tiempoRestante / 60);
                 int segundos = Mathf.FloorToInt(tiempoRestante % 60);
-                textoCronometro.text = $"⏱ {minutos:00}:{segundos:00}";
+                textoCronometro.text = $"{minutos:00}:{segundos:00}";
                 textoCronometro.color = (tiempoRestante <= 10) ? Color.red : Color.white;
             }
 
@@ -190,14 +196,21 @@ public class Boss : MonoBehaviour
     private IEnumerator DesaparecerBoss()
     {
         desapareciendo = true;
-        animator.SetTrigger("Muerte");
+        animator.SetBool("Walking", false);
         rb.velocity = Vector2.zero;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (!batallaIniciada && collision.CompareTag("Player"))
+        {
+            batallaIniciada = true;
+            animator.SetTrigger("Alert"); // animacion de alerta cosa que no hay todavia en un futuro
+            StartCoroutine(TiempoSupervivencia());
+        }
+
         if (collision.CompareTag("Player") && puedeHacerDanio)
         {
             PlayerHealth ph = collision.GetComponent<PlayerHealth>();
