@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bando\\Desktop\\GameJam-2025-DEV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A34BD1C9-AD7A-5617-1D63-9FCE64EA9EE9}|Assembly-CSharp.csproj|c:\\users\\bando\\desktop\\gamejam-2025-dev\\assets\\scripts\\bossdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34BD1C9-AD7A-5617-1D63-9FCE64EA9EE9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bossdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A34BD1C9-AD7A-5617-1D63-9FCE64EA9EE9}|Assembly-CSharp.csproj|c:\\users\\bando\\desktop\\gamejam-2025-dev\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34BD1C9-AD7A-5617-1D63-9FCE64EA9EE9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A34BD1C9-AD7A-5617-1D63-9FCE64EA9EE9}|Assembly-CSharp.csproj|c:\\users\\bando\\desktop\\gamejam-2025-dev\\assets\\scripts\\femaleforestmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34BD1C9-AD7A-5617-1D63-9FCE64EA9EE9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\femaleforestmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\Bando\\Desktop\\GameJam-2025-DEV\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\Bando\\Desktop\\GameJam-2025-DEV\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T04:10:51.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FemaleForestMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Bando\\Desktop\\GameJam-2025-DEV\\Assets\\Scripts\\FemaleForestMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FemaleForestMovement.cs",
+              "ToolTip": "C:\\Users\\Bando\\Desktop\\GameJam-2025-DEV\\Assets\\Scripts\\FemaleForestMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FemaleForestMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T03:55:23.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BossDash.cs",
+              "DocumentMoniker": "C:\\Users\\Bando\\Desktop\\GameJam-2025-DEV\\Assets\\Scripts\\BossDash.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BossDash.cs",
+              "ToolTip": "C:\\Users\\Bando\\Desktop\\GameJam-2025-DEV\\Assets\\Scripts\\BossDash.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BossDash.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAkwJcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T03:41:36.763Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Forcing text files to have LF line endings in the repo
+* text=auto
+
+# Unity YAML files
+*.unity text merge=unityyamlmerge eol=lf
+*.prefab text merge=unityyamlmerge eol=lf
+*.asset text merge=unityyamlmerge eol=lf
+*.meta text merge=unityyamlmerge eol=lf
+
+# Scripts (C#, shader, etc)
+*.cs text diff=csharp eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.fbx binary
+*.dll binary
+*.exe binary

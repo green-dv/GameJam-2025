@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GameJam\\GameJam-2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GameJam\\GameJam-2025\\Assets\\Parallax3\\ParallaxMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Parallax3\\ParallaxMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\bossprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bossprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\healthdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\barradevida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\barradevida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\girlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\girlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|D:\\GameJam\\GameJam-2025\\assets\\scripts\\timeobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AC066-9B8D-0278-15C3-11C37DFA42A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timeobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParallaxMovement.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Parallax3\\ParallaxMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Parallax3\\ParallaxMovement.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Parallax3\\ParallaxMovement.cs",
+              "RelativeToolTip": "Assets\\Parallax3\\ParallaxMovement.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T04:32:38.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BossProjectile.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\BossProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BossProjectile.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\BossProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BossProjectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:24:33.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthDisplay.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\HealthDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthDisplay.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\HealthDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthDisplay.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:26:22.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameController.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\GameController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:23:43.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Boss.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\Boss.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Boss.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\Boss.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Boss.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAwMwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T03:09:32.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BarraDeVida.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\BarraDeVida.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BarraDeVida.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\BarraDeVida.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BarraDeVida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:23:11.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Door.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Door.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Door.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:39:13.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInventory.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:38:12.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KeyItem.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\KeyItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyItem.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\KeyItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:36:32.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TimeObjectController.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\TimeObjectController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeObjectController.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\TimeObjectController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimeObjectController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAzwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T04:35:21.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GirlController.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\GirlController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GirlController.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\GirlController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GirlController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAADwv9QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T02:57:32.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T04:53:02.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "D:\\GameJam\\GameJam-2025\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:26:41.328Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
